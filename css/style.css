@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243,243,243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 70%;
+    margin-top:20px;
+}
+
+.instagram-phone{   
+    padding: 0;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phone img{
+    height:43rem;
+}
+
+.instagram-enter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+}
+
+.instagram-enter .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+}
+
+.instagram-enter .container .top{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: 100%;
+    padding: 5%  10% 10%;
+    border: 1px solid lightgrey;
+}
+
+.instagram-enter .container .top .logo{
+    height:4rem;
+    margin-top: 30px;
+    padding: 1px 50px;
+}
+
+.instagram-enter .container .top form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:20px;
+}
+
+.instagram-enter .container .top form input{
+	display: block;
+	width: 90%;
+	margin-bottom: 5%;
+	height: 40px;
+	border: 1px solid lightgray;
+	outline: none;
+	background-color: transparent;
+	transition: border 0.15s;
+    padding: 0px 5px;
+}
+
+.instagram-enter .container .top form button{
+	background-color: rgb(54, 176, 248);
+	font-size: 15px;
+	width: 90%;
+    border: none;
+	margin-bottom: 5%;
+	color: white;
+	height: 30px;
+	border-radius: 5px;
+	transition: background-color 0.5s, border 0.5s;
+	cursor: pointer;
+    font-weight: bold;
+}
+
+.instagram-enter .container .top .Facebook {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial;
+
+}
+
+.instagram-enter .container .top .Facebook a{
+    font-family: sans-serif;
+    font-size: 17px;
+    text-decoration: solid;
+    color: #3b5998;
+    text-align: center;
+}
+
+.instagram-enter .container .top .lostpassword a{
+    padding-left: 30%;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-decoration: solid;
+    text-align: center;
+}
+
+.instagram-enter .container .signup{
+    margin-top: 10px;
+    height: 10%;
+    font-family: sans-serif;
+    text-decoration: solid;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    padding: 10%;
+    border: 1px solid lightgrey;
+}
+.instagram-enter .container .apps{
+    margin-top: 25px;
+    height: 10%;
+    font-family: sans-serif;
+    text-decoration: solid;
+    text-align: center;
+    width: 100%;
+}
+.instagram-enter .container .apps img{
+    margin-top: 20px;
+    width: 10rem;
+}
+
+.instagram-enter .container .apps button{
+    border: none;
+}
